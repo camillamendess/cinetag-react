@@ -26,3 +26,22 @@
   color: var(--preto);
   text-align: left;
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: 190px;
+  }
+
+  .capa {
+    height: 260px;
+  }
+
+  .container h2 {
+    font-size: 18px;
+  }
+
+  .favoritar {
+    width: 20px;
+  }
+
+}
